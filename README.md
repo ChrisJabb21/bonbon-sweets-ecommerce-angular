@@ -1,10 +1,42 @@
-# AngularUi
+# Angular Headless CMS Ecommerce  
+
+### Description
+
+#### [What is JAMstack](https://jamstack.wtf/)
+A web development architecture composed of client-side JavaScript, reusable APIs and prebuilt Markup templates (e.g. static website generators)
+    
+- [More info](https://jamstack.org/)
+
+
+ JAMstack ecommerce project made with a Sanity ecommerce template (headless CMS to manage content) and Snipcart for ecommerce and shopping cart features. 
+
+Netlify was used to host the angular frontend and Sanity (Headless CMS UI and Backend) as a proxy between the two. The Netlify file has build and dev commands properties and a JS function that fetches products in the CMS for the Angular frontend.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
 
-## Development server
+- Sanity CLI 
+- Snipcart (https://snipcart.com/)
+- Netlify CLI and configuration 
+
+## Development servcer
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Sanity Content Studio
+Run `sanity start` for content server. Navigate to `http://localhost:3333/`. 
+
+
+## Netlify deployment configuration
+
+### Getting started
+Install the netlify CLI to your node modules globally or locally if it isnt installed. Add your netlify.toml file to the of your project directory.
+
+`netlify init`
+ you can initialize a site that has a remote repository in GitHub or create and deploy the site manually.
+
+The first option allows for Netlify Continuous deployment to build branch & PR previews.
+For more details on Netlify CI checkout the docs: http://bit.ly/2N0Jhy5
+
 
 ## Code scaffolding
 

@@ -1,0 +1,18 @@
+body {
+    @extend %txt--body  !optional;
+    position: relative;
+    color: cc(txt);
+    background-color: cc(bg);
+  
+    ::selection {
+      background-color: cc(selection);
+    }
+  }
+  
+  
+  .link {
+    &--external {
+      color: $seagull;
+      text-decoration: underline;
+    }
+  }
