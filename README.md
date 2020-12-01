@@ -17,8 +17,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Sanity Content Studio
-Run `sanity start` for content server. Navigate to `http://localhost:3333/`. 
-<p> Or you can deploy the Sanity CMS with `sanity deploy`. More details [here](https://www.sanity.io/docs/deployment). </p>
+Run `sanity start` for content server. Navigate to `http://localhost:3333/`. Or you can deploy the Sanity CMS with `sanity deploy`. More details [here](https://www.sanity.io/docs/deployment).
 
 
 ## Netlify deployment configuration
