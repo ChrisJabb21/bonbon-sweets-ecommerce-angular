@@ -12,18 +12,19 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - [Snipcart](https://snipcart.com/)
 - Netlify CLI 
 
-## Development servcer
+## Development server
 ---
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Sanity Content Studio
 Run `sanity start` for content server. Navigate to `http://localhost:3333/`. 
+<p> Or you can deploy the Sanity CMS with `sanity deploy`. More details [here](https://www.sanity.io/docs/deployment). </p>
 
 
 ## Netlify deployment configuration
 ---
 ### Getting started
-Install the netlify CLI to your node modules globally or locally if it isnt installed. Add your netlify.toml file to the of your project directory.
+Install the netlify CLI to your node modules globally or locally if it isnt installed. Add your netlify.toml file to the your angular project directory.
 
 `netlify init`
  you can initialize a site that has a remote repository in GitHub or create and deploy the site manually.
